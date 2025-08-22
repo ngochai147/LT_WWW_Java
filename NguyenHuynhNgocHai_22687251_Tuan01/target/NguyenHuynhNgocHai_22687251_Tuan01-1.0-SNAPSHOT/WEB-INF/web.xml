@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+    <servlet>
+        <servlet-name>bai04</servlet-name>
+        <servlet-class>iuh.fit.tuan01.nguyenhuynhngochai_22687251_tuan01.Bai04</servlet-class>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>NgocHai</param-value>
+        </init-param>
+        <init-param>
+            <param-name>age</param-name>
+            <param-value>21</param-value>
+        </init-param>
+    </servlet>
+    <context-param>
+        <param-name>appName</param-name>
+        <param-value>Application Name</param-value>
+    </context-param>
+</web-app>
