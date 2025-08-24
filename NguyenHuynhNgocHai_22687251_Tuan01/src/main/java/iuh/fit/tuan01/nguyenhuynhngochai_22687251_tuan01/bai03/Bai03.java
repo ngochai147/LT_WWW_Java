@@ -10,7 +10,12 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-
+/*
+ * @description
+ * @author: Ngoc  Hai
+ * @date:
+ * @version: 1.0
+ */
 @WebServlet(name = "bai3", urlPatterns = "/bai-3")
 public class Bai03 extends HttpServlet {
     private  ObjectMapper objectMapper;

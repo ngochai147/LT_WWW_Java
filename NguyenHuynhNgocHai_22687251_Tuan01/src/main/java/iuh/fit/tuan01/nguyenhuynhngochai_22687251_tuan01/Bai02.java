@@ -8,7 +8,12 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-
+/*
+ * @description
+ * @author: Ngoc  Hai
+ * @date:
+ * @version: 1.0
+ */
 @WebServlet(name = "bai2", urlPatterns = "/bai-2")
 public class Bai02 extends HttpServlet {
     private String message;

@@ -6,15 +6,25 @@
     <servlet>
         <servlet-name>bai04</servlet-name>
         <servlet-class>iuh.fit.tuan01.nguyenhuynhngochai_22687251_tuan01.Bai04</servlet-class>
+
         <init-param>
             <param-name>username</param-name>
-            <param-value>NgocHai</param-value>
+            <param-value>ngochai147</param-value>
         </init-param>
         <init-param>
-            <param-name>age</param-name>
-            <param-value>21</param-value>
+            <param-name>password</param-name>
+            <param-value>12345678</param-value>
         </init-param>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>bai04</servlet-name>
+        <url-pattern>/bai-4</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>context-param</param-name>
+        <param-value>nguyenhuynhngochai147@gmail.com</param-value>
+    </context-param>
     <context-param>
         <param-name>appName</param-name>
         <param-value>Application Name</param-value>

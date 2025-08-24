@@ -1,5 +1,10 @@
 package iuh.fit.tuan01.nguyenhuynhngochai_22687251_tuan01.bai03;
-
+/*
+ * @description
+ * @author: Ngoc  Hai
+ * @date:
+ * @version: 1.0
+ */
 public class User {
     private String userName;
     private String password;

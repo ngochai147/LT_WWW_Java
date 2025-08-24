@@ -3,7 +3,12 @@ package iuh.fit.tuan01.nguyenhuynhngochai_22687251_tuan01;
 import java.io.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
-
+/*
+ * @description
+ * @author: Ngoc  Hai
+ * @date:
+ * @version: 1.0
+ */
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {
     private String message;
