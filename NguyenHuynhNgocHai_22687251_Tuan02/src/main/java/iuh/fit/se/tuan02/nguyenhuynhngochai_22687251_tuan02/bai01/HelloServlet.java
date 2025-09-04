@@ -1,4 +1,4 @@
-package iuh.fit.se.tuan02.nguyenhuynhngochai_22687251_tuan02;
+package iuh.fit.se.tuan02.nguyenhuynhngochai_22687251_tuan02.bai01;
 
 import java.io.*;
 import jakarta.servlet.http.*;
